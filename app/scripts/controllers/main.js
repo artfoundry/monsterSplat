@@ -1,25 +1,3 @@
-//submodules
-//(function(){
-//    var map = angular.module("map", []);
-//})
-//
-//(function(){
-//    var tiles = angular.module("tiles", []);
-//})
-//
-//(function(){
-//    var character = angular.module("character", []);
-//})
-//
-//(function(){
-//    var item = angular.module("item", []);
-//})
-//
-//(function(){
-//    var monster = angular.module("monster", []);
-//})
-//
-
 angular.module("rogueCraft.moveMonster", []).value("monster", {
     move: function() {
         var $monsterTile = $(".tile-monster");
